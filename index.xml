@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Let&#39;s have some Soda</title>
+    <link>http://sherrrwh.github.io/</link>
+    <description>Recent content on Let&#39;s have some Soda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>sherlockwh@gmail.com (norawww)</managingEditor>
+    <webMaster>sherlockwh@gmail.com (norawww)</webMaster>
+    <lastBuildDate>Fri, 27 Apr 2018 20:02:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://sherrrwh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello</title>
+      <link>http://sherrrwh.github.io/post/hello-world/</link>
+      <pubDate>Fri, 27 Apr 2018 20:02:42 +0800</pubDate>
+      <author>sherlockwh@gmail.com (norawww)</author>
+      <guid>http://sherrrwh.github.io/post/hello-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
