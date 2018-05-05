@@ -91,8 +91,8 @@
             
             
             <article class="post-preview">
-              <a href="https://sherrrwh.github.io/post/hello-world/">
-          	  <h1 class="post-title">Hello</h1>
+              <a href="https://sherrrwh.github.io/post/my-first-post/">
+          	  <h1 class="post-title">0基础搭建Hugo个人blog</h1>
           	
           	    
               </a>
@@ -102,8 +102,13 @@
               </p>
             
               <div class="post-entry">
-											<p></p>
-								<a href="https://sherrrwh.github.io/post/hello-world/" class="post-read-more">[READ&nbsp;MORE]</a>
+											<p>0基础搭建Hugo个人blog 以64位Windows系统为例 用hugo搭建个人blog需要GitHub账号，一台能够科学上网的电脑并安装Git，GitHub Desktop和VS Code。
+准备工作  在GitHub网站申请账号，后续我们使用GitHub为我们免费提供的网址xxxx.github.io为blog地址（xxxx为你的用户名）。 廖雪峰的安装git教程 不需要看太多文字介绍，我们只需要看安装Git部分即可。以下是Windows版介绍： 在Git官网下载Windows版，安装时点选默认选项即可。安装完成后在开始菜单找到Git并打开Git Bash，在弹出的命令行窗口中输入:  $ git config --global user.name &quot;Your Name&quot; $ git config --global user.email &quot;email@example.com&quot;  下载GitHub Desktop安装程序，安装过程无选项，只需要在装好后选择登入GitHub账号即可。 下载VS Code安装程序，安装时点选默认选项即可。
+在本地搭建Hugo网站 在hugo下载地址找到hugo_0.40.1_Windows-64bit.zip文件点击下载，在此过程中可以打开Windows Explorer，找到D盘，创建一个新的文件夹叫做Hugo，打开Hugo文件夹，在里面创建两个新的文件夹分别叫做bin和Sites。将下载好的zip文件放进bin文件夹中，并解压到当前文件夹。确保hugo.exe直接放在D:/Hugo/bin中。
+ 设置环境变量。控制面板→系统→高级系统设置→环境变量→新建（系统变量）： &gt; 变量名：PATH &gt; &gt; 变量值：D:\Hugo\bin&gt;set PATH=%PATH%;D:\Hugo\bin
+  详解：在开始中找到Cortana（小娜），输入控制面板，打开后找到系统。选择系统窗口左侧的高级系统设置，点开环境变量窗口，找到环境变量下的新建按钮，在弹出窗口中输入变量名：PATH 变量值：D:\Hugo\bin&gt;set PATH=%PATH%;D:\Hugo\bin。一路选择确认键退出所有窗口即可。 * 在开始中找到Cortana（小娜），输入CMD打开命令提示符输入hugo help并按Enter键。可以看到窗口显示A Fast and Flexible Static Site Generator built with love by spf13 and friends in Go. 这代表hugo已经安装完成了。在窗口继续输入:
+C:\Program Files&gt; cd D:\Hugo\Sites C:\Program Files&gt; D: D:\Hugo\Sites&gt;  进入sites文件夹中，此时我们需要创建一个新的网站名作为blog的名称。例如xxxx.</p>
+								<a href="https://sherrrwh.github.io/post/my-first-post/" class="post-read-more">[READ&nbsp;MORE]</a>
               </div>
             
              </article>
